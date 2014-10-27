@@ -1,0 +1,122 @@
+html, body{
+	height: 100%;
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+body{
+	background: gray;
+}
+
+header{
+	background-color: yellow;
+	height: 8.5em;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+
+#logo{
+	background-color: blue;
+	margin-left: 2%;
+	width: 30%;
+}
+
+#logo img{
+	float: left;
+	margin-left: 2%;
+	margin-top: -5%;
+	width: 100%;
+}
+
+#redes{
+	background-color: red;
+	float: left;
+	margin-left: 45%;
+	width: 20%;
+}
+
+.social ul li{
+	display: inline-block;
+	list-style: none;
+}
+
+.social ul li a{
+	text-decoration: none;
+}
+
+#menu{
+	background: green;
+	float: left;
+	margin-top: 0;
+	width: 100%
+}
+
+#menu ul li{
+	display: inline-block;
+	list-style: none;
+}
+
+#menu ul li a{
+	text-decoration: none;
+}
+
+#slider{
+	background: black;
+	color: white;
+	height: 50%;
+	margin-left: 10%; 
+	margin-top: 25%;
+	text-align: center;
+	width: 80%;
+}
+
+#blog{
+	background-color: white;
+	height: 50%;
+	margin-left: 10%;
+	width: 80%;
+}
+
+footer{
+	background-color: yellow;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+
+}
+
+figure{
+	margin-top: -10%;
+	position: fixed;
+	z-index: -10;
+}
+
+figure img{
+	margin-left: 10%;
+	width: 80%;
+}
+
+#mapa{
+	float: left;
+	width: 50%;
+}
+
+#mapa ul li{
+	display: inline-block;
+	list-style: none;
+}
+
+#menu ul li a{
+	font-style: none;
+}
+
+
+#redes_2{
+	background-color: red;
+	float: left;
+	margin-left: 30%;
+	width: 20%;
+}
